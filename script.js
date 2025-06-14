@@ -1,10 +1,10 @@
-const users = ["Jesam", "Matilda", "Kingsley", "Emmanuel", "Johnson", "Abdulatif"];
+/*
+    Conditional Statements
+    Conditional statements are statements used to alter the flow of a
+    program based on specified condition(s).
 
-// for(start; stop; step) {
-
-// }
-
-for(let i = 0; i < 5; i++) {
-    console.log("Hello", i);
-}
+    In JavaScript we have two types of conditional statements.
+    1. If-else conditional statement.
+    2. Switch statement
+*/
 
