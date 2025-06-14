@@ -10,3 +10,4 @@ Here is a documentation of the lessons/classes/code snippets for KodeCamp 5.0 No
 - [Lesson 2 - Functions and callbacks]()
 
 - [Lesson 3 - Conditional statements, arrays and loops (for loop)]()
+
