@@ -20,3 +20,5 @@ Here is a documentation of the lessons/classes/code snippets for KodeCamp 5.0 No
 - [Lesson 7 - OOP recap, sending emails (using nodemailer), code splitting](https://github.com/victuk/kc5.0-tree-of-life/tree/class-7)
 
 - [Lesson 8 - Authentication, CRUD Operations, and Sending email](https://github.com/victuk/kc5.0-tree-of-life/tree/class-8)
+
+- [Lesson 9/10 - Authentication, file uploads](https://github.com/victuk/kc5.0-tree-of-life/tree/class-9) and [working with postgres](https://github.com/victuk/kc5.0-tree-of-life/tree/class-10)
