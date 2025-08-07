@@ -4,6 +4,8 @@ var path = require('path');
 const todoRouter = require('./routes/todoRoute');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const uploadFile = require("./utility/fileUploads");
+const uploads = require("./utility/multerConfig");
 require("./schema/connect");
 
 var indexRouter = require('./routes/index');
@@ -24,6 +26,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/todo', todoRouter);
+
+app.post("/file-uploads", uploads.single("file"), async (req, res) => {
+    console.log("file properties", req.file);
+    const fileDetails = await uploadFile(req.file);
+    console.log("fileDetails", fileDetails);
+    res.send({
+        message: "File uploaded successfully",
+        fileDetails
+    });
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
