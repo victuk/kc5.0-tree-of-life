@@ -41,7 +41,6 @@ app.use("/auth", authRouter);
 app.use("/todo", todoRouter);
 app.use('/paystack', paystackRouter);
 app.use('/message', messageRouter);
-app.use('/scheduler', cronRouter);
 
 app.get("/normalize", async (req, res) => {
     await userModel.updateMany({}, {
