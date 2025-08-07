@@ -1,0 +1,6 @@
+.env
+
+*.http
+*.rest
+
+node_modules
