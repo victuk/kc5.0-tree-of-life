@@ -22,3 +22,9 @@ Here is a documentation of the lessons/classes/code snippets for KodeCamp 5.0 No
 - [Lesson 8 - Authentication, CRUD Operations, and Sending email](https://github.com/victuk/kc5.0-tree-of-life/tree/class-8)
 
 - [Lesson 9/10 - Authentication, file uploads](https://github.com/victuk/kc5.0-tree-of-life/tree/class-9) and [working with postgres](https://github.com/victuk/kc5.0-tree-of-life/tree/class-10)
+
+- [Lesson 11 - File Uploads, Role-Based Authorization, Deploying on Render](https://github.com/victuk/kc5.0-tree-of-life/tree/class-11)
+
+- [Lesson 12 - Input Validation with JOI, Payment with PayStack](https://github.com/victuk/kc5.0-tree-of-life/tree/class-12)
+
+- [Lesson 13 - Introduction to Bi-Directional Communication with Socket.io, pagination and document reference](https://github.com/victuk/kc5.0-tree-of-life/tree/class-13)
