@@ -6,7 +6,6 @@ const mongoose = require("mongoose");
 const uploads = require("./utility/multerConfig");
 const uploadFile = require("./utility/fileUploads");
 const userModel = require("./schema/user");
-const paystackRouter = require("./router/paystackRouter");
 
 mongoose.connect(process.env.DB_URL).then(() => {
     console.log("Connected to the database");
@@ -25,7 +24,6 @@ app.use((req, res, next) => {
 
 app.use("/auth", authRouter);
 app.use("/todo", todoRouter);
-app.use('/paystack', paystackRouter);
 
 app.get("/normalize", async (req, res) => {
     await userModel.updateMany({}, {
