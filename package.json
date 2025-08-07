@@ -1,0 +1,35 @@
+{
+  "name": "sample-backend",
+  "version": "1.0.0",
+  "description": "A sample backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test:class": "jest ./__tests__/testClass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sample",
+    "backend",
+    "express"
+  ],
+  "author": "Victor Ukok",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.844.0",
+    "axios": "^1.10.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jest": "^30.0.4",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "mongoose-paginate-v2": "^1.9.1",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10",
+    "uuid": "^11.1.0"
+  }
+}
